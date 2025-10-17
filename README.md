@@ -45,7 +45,7 @@ Example Config:
     
     "ACCOUNT": ["register", "login", "signup"],
 
-     "GENERAL_INQUIRY": [ "question", "ask", "information",]
+    "GENERAL_INQUIRY": [ "question", "ask", "information",]
     
   }
   
