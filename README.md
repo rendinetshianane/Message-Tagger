@@ -70,7 +70,7 @@ message_tagger/
 ├── cli_runner.py            # Command-line interface entry point
 └── README.md                # Documentation (this file)
 
-# 🚀 Example Usage
+# Example Usage
 python
 - from config_loader import ConfigLoader
 - from message_tagger import MessageTagger
@@ -93,9 +93,9 @@ Expected Output:
 Primary Tag: ACCOUNT
 Secondary Tag: None
 
-# 🧩 Future Enhancements
-🔍 Add semantic matching using synonyms (WordNet)
+# Future Enhancements
+Add semantic matching using synonyms (WordNet)
 
-🧠 Integrate TF-IDF or cosine similarity scoring
+Integrate TF-IDF or cosine similarity scoring
 
-⚙️ Extend with FastAPI REST endpoint for real-time tagging
+Extend with FastAPI REST endpoint for real-time tagging
