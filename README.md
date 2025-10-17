@@ -55,9 +55,9 @@ Message: "I want to register for an account"
 → Output: Primary Tag = ACCOUNT
 ## #🧪 Acceptance Criteria
 Test Case	Input Message	Expected Output Tags	Description
-✅ 1.	"I want to register for an account"	ACCOUNT	Contains keyword “register”
-✅ 2. "Transacts are a pain in the ass"	BILLING	Contains keyword “transact” (related to billing)
-✅ 3. "Can I get a refund for my payment?"	BILLING	Contains “refund” and “payment”
+- "I want to register for an account"	ACCOUNT	Contains keyword “register”
+- "Transacts are a pain in the ass"	BILLING	Contains keyword “transact” (related to billing)
+- "Can I get a refund for my payment?"	BILLING	Contains “refund” and “payment”
 
 ✔️ All three cases must return the correct Primary Tag for project completion.
 
