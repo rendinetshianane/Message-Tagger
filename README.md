@@ -38,6 +38,7 @@ Example Config:
     "ACCOUNT": ["register", "login", "signup"]
   }
 }
+
 **💡 2. MessageTagger**
 The core engine that processes the message and assigns the two most relevant tags.
 
