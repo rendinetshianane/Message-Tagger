@@ -1,16 +1,16 @@
- # 💬 Intelligent Message Tagger — Proof of Concept
+ # Intelligent Message Tagger — Proof of Concept
 
 A lightweight **keyword-based message classification system** that analyzes user messages and assigns relevant tags such as *Sales*, *Billing*, or *Support* based on keyword frequency and scoring.
 
 ---
 
-## ⚙️ Minimum Requirements
+# Minimum Requirements
 **Python** | Version 3.8 or later |
 **Libraries** | `nltk`, `json`, `os`, `typing` |
 **Operating System** | Works on Windows, macOS, or Linux |
 **Editor (Optional)** | VS Code, PyCharm, or any Python IDE |
 
-### 🧩 Installation Steps
+# Installation Steps
 
 1. Clone or download the repository  
 2. Open the project folder in your terminal  
@@ -20,8 +20,8 @@ A lightweight **keyword-based message classification system** that analyzes user
 Then run the CLI tool:
 python app_runner.py
 
-# # #🏗️ High-Level Implementation Details
-**🗂️ 1. ConfigLoader**
+# High-Level Implementation Details
+**1. ConfigLoader**
 Handles configuration management and loading of tag definitions from a JSON file.
 
 Loads tag_config.json
@@ -39,7 +39,7 @@ Example Config:
   }
 }
 
-**💡 2. MessageTagger**
+**2. MessageTagger**
 The core engine that processes the message and assigns the two most relevant tags.
 
 Process Overview:
@@ -53,7 +53,7 @@ Process Overview:
 Message: "I want to register for an account"
 → Match: "register" → ACCOUNT
 → Output: Primary Tag = ACCOUNT
-## #🧪 Acceptance Criteria
+# Acceptance Criteria
 Test Case	Input Message	Expected Output Tags	Description
 - "I want to register for an account"	ACCOUNT	Contains keyword “register”
 - "Transacts are a pain in the ass"	BILLING	Contains keyword “transact” (related to billing)
@@ -61,7 +61,7 @@ Test Case	Input Message	Expected Output Tags	Description
 
 ✔️ All three cases must return the correct Primary Tag for project completion.
 
-## #📂 Project Structure
+# Project Structure
 message_tagger/
 │
 ├── tag_config.json          # Tag and keyword definitions
