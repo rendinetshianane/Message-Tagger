@@ -137,8 +137,6 @@ message_tagger/
 
 ├── pycache            
 
-├── .venv          
-
 ├── app_runner.py            **# Tag and keyword definitions**
 
 ├── config_loader.py         **# Loads and validates configuration**
