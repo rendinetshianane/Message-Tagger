@@ -90,22 +90,27 @@ The message is split into lowercase words.
 
 Example:
 
-"Transacts are a pain" → ['transacts', 'are', 'a', 'pain']
+"Transacts are a pain" → ['I am not able to make a transaction']
 
 Keyword Matching:
 
 For each tag, the system counts how many defined keywords appear in the message.
 Example:
 
-BILLING keywords = ["payment", "refund", "invoice", "transact"]
+BILLING keywords: [ 
+                 "invoice", "payment", "charge", "refund", 
+                 "subscription", "billing", "paid", "credit card", 
+                 "transaction","receipt", "account", "balance", 
+                 "overcharge", "transfer", "fee"
+              ],
 
-→ Match: "transacts" ≈ "transact"
+→ Match: "transaction" ≈ "transaction"
 
 Scoring Formula:
 
 score = matched_keywords / total_keywords
 
-Example: BILLING = 1 / 4 = 0.25
+Example: BILLING = 1 / 15 = 0.06
 
 Ranking:
 
@@ -115,19 +120,34 @@ Ranking:
 
 Example Result:
 
-Message: "Can I get a refund for my payment?"
+Message: "Is a refund possible for the payment I made yesterday"
 
-→ Primary Tag: BILLING
+→ Primary Tag: BILLING (0.06)
 
 → Secondary Tag: None
  
 # Acceptance Criteria
-Test Case	Input Message	Expected Output Tags	Description
-- "I want to register for an account"	ACCOUNT	Contains keyword “register”
-- "Transacts are a pain in the ass"	BILLING	Contains keyword “transact” (related to billing)
-- "Can I get a refund for my payment?"	BILLING	Contains “refund” and “payment”
+Test Case 1
+- Input Message: "I want to register for an account"
 
-All three cases must return the correct Primary Tag for project completion.
+- Expected Output Tags: ACCOUNT
+
+- Description: Contains keyword “register”
+
+Test Case 2
+- Input Message: "I am unable to get an invoice"
+
+- Expected Output Tags: BILLING
+
+- Description: Contains keyword “invoice” (related to billing)
+
+Test Case 3
+- Input Message: "Can I get a refund for my payment?"
+
+- Expected Output Tags: BILLING
+
+- Description: Contains keywords “refund” and “payment”
+
 
 # Project Structure
 message_tagger/
