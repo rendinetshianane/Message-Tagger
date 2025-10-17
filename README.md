@@ -44,11 +44,11 @@ The core engine that processes the message and assigns the two most relevant tag
 
 Process Overview:
 
--- Tokenizes message text (e.g., "registration is failing" → ["registration", "is", "failing"])
--- Matches keywords defined for each tag
--- Scores each tag based on number of keyword hits
--- Returns Primary (highest score) and Secondary (next highest) tag
--- Example Flow:
+- Tokenizes message text (e.g., "registration is failing" → ["registration", "is", "failing"])
+- Matches keywords defined for each tag
+- Scores each tag based on number of keyword hits
+- Returns Primary (highest score) and Secondary (next highest) tag
+- Example Flow:
 
 Message: "I want to register for an account"
 → Match: "register" → ACCOUNT
