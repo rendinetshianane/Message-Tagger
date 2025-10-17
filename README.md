@@ -55,10 +55,10 @@ The core engine that processes the message and assigns the two most relevant tag
 
 Process Overview:
 
-- Tokenizes message text (e.g., "registration is failing" → ["registration", "is", "failing"])
-- Matches keywords defined for each tag
-- Scores each tag based on number of keyword hits
-- Returns Primary (highest score) and Secondary (next highest) tag
+- Firstly it tokenizes the message text from the user (e.g., "registration is failing" → ["registration", "is", "failing"])
+- Matches the tokens to the keywords defined in each tag
+- After that it scores each tag based on the number of keywords a certain tag contains in the user message
+- Then finally it returns two tags, primary and secondary, primary is the tag with the highest score then secondary is second highest
 - Example Flow:
 
 Message: "I want to register for an account"
@@ -74,11 +74,6 @@ Message: "I want to register for an account"
 - Supports extra commands:
   - debug → shows all tags and keywords
   - quit / exit → exits the program
-- Example Flow:
-
-Message: "Transacts are a pain in the ass"
-→ Match: "transacts" → BILLING
-→ Output: Primary Tag = BILLING
 
 **4. How the Scoring Logic Works**
 
