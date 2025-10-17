@@ -1,0 +1,34 @@
+{ 
+  "tags": { 
+    "SALES": [ "purchase", "buy", "pricing", 
+              "quote", "demo", "trial", "plan", 
+              "upgrade", "enterprise", "subscription", 
+              "package", "cost", "price", "sale" 
+            ], 
+    "SUPPORT": [ "help", "issue", "problem", 
+                "broken", "error", "bug", 
+                "crash", "not working", "fix", 
+                "troubleshoot", "assistance", "support" 
+              ], 
+    "BILLING": [ "invoice", "payment", "charge", "refund", "subscription", 
+                 "billing", "paid", "credit card", "transaction",
+                 "receipt", "account", "balance", "overcharge", "payment method",
+                 "purchase", "sale", "transfer", "fee"
+              ], 
+    "ACCOUNT": [ "login", "password", "signup", 
+                "register", "sign in", "sign up", 
+                "verification", "username", "reset" 
+              ], 
+    "GENERAL_INQUIRY": [ "question", "ask", "information", 
+                        "details", "clarify", "how", 
+                        "when", "where", "why", 
+                        "contact", "reach", "office" 
+                      ], 
+    "FEEDBACK": [ "feedback", "suggestion", "improve", 
+                  "rate", "experience", "satisfied", 
+                  "unsatisfied", "recommend", "compliment", 
+                  "complain" 
+                ],
+    "OTHER": [] 
+  } 
+}
