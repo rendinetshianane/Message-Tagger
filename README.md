@@ -72,7 +72,7 @@ Message: "I want to register for an account"
 - Displays the Primary and Secondary tags with their scores.
 - Supports extra commands:
   - debug → shows all tags and keywords
-  - quit / exit / q → exits the program
+  - quit / exit → exits the program
 - Example Flow:
 
 Message: "Transacts are a pain in the ass"
