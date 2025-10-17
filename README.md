@@ -44,11 +44,11 @@ The core engine that processes the message and assigns the two most relevant tag
 
 Process Overview:
 
---Tokenizes message text (e.g., "registration is failing" → ["registration", "is", "failing"])
---Matches keywords defined for each tag
---Scores each tag based on number of keyword hits
---Returns Primary (highest score) and Secondary (next highest) tag
---Example Flow:
+-- Tokenizes message text (e.g., "registration is failing" → ["registration", "is", "failing"])
+-- Matches keywords defined for each tag
+-- Scores each tag based on number of keyword hits
+-- Returns Primary (highest score) and Secondary (next highest) tag
+-- Example Flow:
 
 Message: "I want to register for an account"
 → Match: "register" → ACCOUNT
@@ -71,13 +71,13 @@ message_tagger/
 └── README.md                # Documentation (this file)
 
 # 🚀 Example Usage
-pythone
-from config_loader import ConfigLoader
-from message_tagger import MessageTagger
+python
+- from config_loader import ConfigLoader
+- from message_tagger import MessageTagger
 
 # Load tag configuration
-loader = ConfigLoader("tag_config.json")
-tag_config = loader.load()
+- loader = ConfigLoader("tag_config.json")
+- tag_config = loader.load()
 
 # Initialize tagger
 tagger = MessageTagger(tag_config)
