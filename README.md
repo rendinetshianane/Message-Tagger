@@ -1,4 +1,4 @@
-# 💬 Intelligent Message Tagger — Proof of Concept
+ # 💬 Intelligent Message Tagger — Proof of Concept
 
 A lightweight **keyword-based message classification system** that analyzes user messages and assigns relevant tags such as *Sales*, *Billing*, or *Support* based on keyword frequency and scoring.
 
