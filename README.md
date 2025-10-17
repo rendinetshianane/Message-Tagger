@@ -43,7 +43,9 @@ Example Config:
     
     "BILLING": ["payment", "refund", "invoice"],
     
-    "ACCOUNT": ["register", "login", "signup"]
+    "ACCOUNT": ["register", "login", "signup"],
+
+     "GENERAL_INQUIRY": [ "question", "ask", "information",]
     
   }
   
