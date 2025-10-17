@@ -98,13 +98,13 @@ message_tagger/
 
 ├── .venv          
 
-├── app_runner.py            # Tag and keyword definitions
+├── app_runner.py            **# Tag and keyword definitions**
 
-├── config_loader.py         # Loads and validates configuration
+├── config_loader.py         **# Loads and validates configuration**
 
-├── message_tagger.py        # Core tag analysis logic
+├── message_tagger.py        **# Core tag analysis logic**
 
-├── tag_config.json          # Command-line interface entry point
+├── tag_config.json          **# Command-line interface entry point**
 
 
 # Example Usage
