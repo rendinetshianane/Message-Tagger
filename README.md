@@ -94,15 +94,18 @@ message_tagger/
 
 │
 
-├── tag_config.json          # Tag and keyword definitions
+├── pycache            
+
+├── .venv          
+
+├── app_runner.py            # Tag and keyword definitions
 
 ├── config_loader.py         # Loads and validates configuration
 
 ├── message_tagger.py        # Core tag analysis logic
 
-├── app_runner.py            # Command-line interface entry point
+├── tag_config.json          # Command-line interface entry point
 
-└── README.md                # Documentation (this file)
 
 # Example Usage
 python
