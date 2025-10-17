@@ -62,7 +62,7 @@ Test Case	Input Message	Expected Output Tags	Description
 - "Transacts are a pain in the ass"	BILLING	Contains keyword “transact” (related to billing)
 - "Can I get a refund for my payment?"	BILLING	Contains “refund” and “payment”
 
-✔️ All three cases must return the correct Primary Tag for project completion.
+All three cases must return the correct Primary Tag for project completion.
 
 # Project Structure
 message_tagger/
