@@ -15,8 +15,8 @@ A lightweight **keyword-based message classification system** that analyzes user
 
 # Installation Steps
 
-**1. Clone or download the repository**  
-**2. Open the project folder in your terminal**  
+1. Clone or download the repository
+2. Open the project folder in your terminal
 3. Run:
    ```bash
    pip install nltk
