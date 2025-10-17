@@ -132,14 +132,14 @@ Test Case 1
 
 - Expected Output Tags: ACCOUNT
 
-- Description: Contains keyword “register”
+- Description: Contains keyword “register” and "account"
 
 Test Case 2
 - Input Message: "I am unable to get an invoice"
 
 - Expected Output Tags: BILLING
 
-- Description: Contains keyword “invoice” (related to billing)
+- Description: Contains keyword “invoice” 
 
 Test Case 3
 - Input Message: "Can I get a refund for my payment?"
