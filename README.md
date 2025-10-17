@@ -56,6 +56,22 @@ Process Overview:
 Message: "I want to register for an account"
 → Match: "register" → ACCOUNT
 → Output: Primary Tag = ACCOUNT
+
+3. AppRunner
+- Acts as the command-line interface for running the message tagger.
+- Loads the configuration using ConfigLoader.
+- Initializes the MessageTagger.
+- Accepts user input messages from the terminal.
+- Displays the Primary and Secondary tags with their scores.
+- Supports extra commands:
+  - debug → shows all tags and keywords
+  - quit / exit / q → exits the program
+- Example Flow:
+
+Message: "Transacts are a pain in the ass"
+→ Match: "transacts" → BILLING
+→ Output: Primary Tag = BILLING
+ 
 # Acceptance Criteria
 Test Case	Input Message	Expected Output Tags	Description
 - "I want to register for an account"	ACCOUNT	Contains keyword “register”
