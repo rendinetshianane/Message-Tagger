@@ -34,12 +34,19 @@ Handles configuration management and loading of tag definitions from a JSON file
 - Makes the tag–keyword dictionary available to the message analyzer
 
 Example Config:
+
 {
+
   "tags": {
+  
     "SALES": ["buy", "quote", "plan"],
+    
     "BILLING": ["payment", "refund", "invoice"],
+    
     "ACCOUNT": ["register", "login", "signup"]
+    
   }
+  
 }
 
 **2. MessageTagger**
