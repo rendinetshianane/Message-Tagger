@@ -7,7 +7,7 @@ A lightweight **keyword-based message classification system** that analyzes user
 # Minimum Requirements
 **Python:  Version 3.8 or later**
 
-**Libraries: `nltk`, `json`, `os`, `typing`**
+**Libraries: `json`, `os`, `typing`**
 
 **Operating System: Works on Windows, macOS, or Linux**
 
@@ -17,11 +17,10 @@ A lightweight **keyword-based message classification system** that analyzes user
 
 1. Clone or download the repository
 2. Open the project folder in your terminal
-3. Run:
-   ```bash
-   pip install nltk
-Then run the CLI tool:
+3. Then run the CLI tool:
+```bash
 python app_runner.py
+```
 
 # High-Level Implementation Details
 **1. ConfigLoader**
