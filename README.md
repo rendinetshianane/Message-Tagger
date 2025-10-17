@@ -67,11 +67,11 @@ Message: "I want to register for an account"
 → Output: Primary Tag = ACCOUNT
 
 **3. AppRunner**
-- Acts as the command-line interface for running the message tagger.
-- Loads the configuration using ConfigLoader.
-- Initializes the MessageTagger.
-- Accepts user input messages from the terminal.
-- Displays the Primary and Secondary tags with their scores.
+- This file is the command-line interface for running the message tagger.
+- Firstly it will load the configuration using ConfigLoader
+- Then it will initialize the MessageTagger to start with tagging messages given by the user..
+- User input messages will be accepted via the terminal.
+- After a user writes their message, the message will be tagged with primary and secondary tags which will be displayed with their scores on the terminal
 - Supports extra commands:
   - debug → shows all tags and keywords
   - quit / exit → exits the program
@@ -81,7 +81,7 @@ Message: "Transacts are a pain in the ass"
 → Match: "transacts" → BILLING
 → Output: Primary Tag = BILLING
 
-**How the Scoring Logic Works**
+**4. How the Scoring Logic Works**
 
 Each tag is scored based on how many of its keywords appear in the message.
 
