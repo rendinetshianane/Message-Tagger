@@ -27,11 +27,11 @@ python app_runner.py
 **1. ConfigLoader**
 Handles configuration management and loading of tag definitions from a JSON file.
 
-Loads tag_config.json
+- Loads tag_config.json
 
-Validates its structure
+- Validates its structure
 
-Makes the tag–keyword dictionary available to the message analyzer
+- Makes the tag–keyword dictionary available to the message analyzer
 
 Example Config:
 {
