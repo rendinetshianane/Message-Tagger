@@ -75,7 +75,7 @@ message_tagger/
 
 ├── message_tagger.py        # Core tag analysis logic
 
-├── cli_runner.py            # Command-line interface entry point
+├── app_runner.py            # Command-line interface entry point
 
 └── README.md                # Documentation (this file)
 
