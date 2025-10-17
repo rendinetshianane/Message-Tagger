@@ -5,10 +5,10 @@ A lightweight **keyword-based message classification system** that analyzes user
 ---
 
 # Minimum Requirements
-**Python  Version 3.8 or later |**
-**Libraries | `nltk`, `json`, `os`, `typing`**
+**Python:  Version 3.8 or later**
+**Libraries: `nltk`, `json`, `os`, `typing`**
 **Operating System: Works on Windows, macOS, or Linux**
-**Editor (Optional)  VS Code, PyCharm, or any Python IDE**
+**Editor (Optional):  VS Code, PyCharm, or any Python IDE**
 
 # Installation Steps
 
