@@ -86,14 +86,20 @@ Message: "Transacts are a pain in the ass"
 Each tag is scored based on how many of its keywords appear in the message.
 
 Tokenization:
+
 The message is split into lowercase words.
+
 Example:
+
 "Transacts are a pain" → ['transacts', 'are', 'a', 'pain']
 
 Keyword Matching:
+
 For each tag, the system counts how many defined keywords appear in the message.
 Example:
+
 BILLING keywords = ["payment", "refund", "invoice", "transact"]
+
 → Match: "transacts" ≈ "transact"
 
 Scoring Formula:
@@ -103,13 +109,17 @@ score = matched_keywords / total_keywords
 Example: BILLING = 1 / 4 = 0.25
 
 Ranking:
+
 - Tags are sorted by score.
+  
 - The top tag = Primary, and the next = Secondary.
 
 Example Result:
 
 Message: "Can I get a refund for my payment?"
+
 → Primary Tag: BILLING
+
 → Secondary Tag: None
  
 # Acceptance Criteria
