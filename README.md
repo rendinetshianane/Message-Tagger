@@ -67,10 +67,15 @@ All three cases must return the correct Primary Tag for project completion.
 # Project Structure
 message_tagger/
 │
+
 ├── tag_config.json          # Tag and keyword definitions
+
 ├── config_loader.py         # Loads and validates configuration
+
 ├── message_tagger.py        # Core tag analysis logic
+
 ├── cli_runner.py            # Command-line interface entry point
+
 └── README.md                # Documentation (this file)
 
 # Example Usage
