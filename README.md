@@ -57,7 +57,7 @@ Message: "I want to register for an account"
 → Match: "register" → ACCOUNT
 → Output: Primary Tag = ACCOUNT
 
-3. AppRunner
+**3. AppRunner**
 - Acts as the command-line interface for running the message tagger.
 - Loads the configuration using ConfigLoader.
 - Initializes the MessageTagger.
