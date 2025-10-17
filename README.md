@@ -66,6 +66,7 @@ All three cases must return the correct Primary Tag for project completion.
 
 # Project Structure
 message_tagger/
+
 │
 
 ├── tag_config.json          # Tag and keyword definitions
