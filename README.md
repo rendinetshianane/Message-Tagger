@@ -1,6 +1,6 @@
  # Intelligent Message Tagger — Proof of Concept
 
-A lightweight **keyword-based message classification system** that analyzes user messages and assigns relevant tags such as *Sales*, *Billing*, or *Support* based on keyword frequency and scoring.
+The **Intelligent Message Tagger** is a message classification system based on keywords that performs an analysis of a user message and then applies one or more tags such as Sales, Billing or Support according to the frequency of the keywords and the underlying scoring system. 
 
 ---
 
